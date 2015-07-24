@@ -1,0 +1,20 @@
+{
+    "name": "consultnn/yii2-multi-embedded-widget",
+    "description": "Yii2 widget for multiple mongodb embedded documents",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sokrat",
+            "email": "sergey.sipatov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "consultnn/yii2-multi-input": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "consultnn\\widgets\\": "."
+        }
+    }
+}
