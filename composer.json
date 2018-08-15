@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "consultnn/yii2-multi-input": "1.0.x-dev"
+        "consultnn/yii2-multi-input": "~1.0.4"
     },
     "autoload": {
         "psr-4": {
