@@ -39,9 +39,9 @@ class MultiEmbedded extends MultiInput
         return $emptyModel;
     }
 
-    protected function initEmpty()
+    protected function initEmpty($a = null)
     {
-        $this->model->{$this->attribute}[] = $this->getEmptyModel();
+        $this->model->{$this->attribute} = [$this->getEmptyModel()];
     }
 
     protected function renderTemplateRow()
